@@ -9,7 +9,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         Random random = new Random();
         int randomNum = (random.nextInt(100));
-        System.out.println(randomNum);
+        //System.out.println(randomNum);
 
         System.out.println("enter your first guess (1 to 100)");
         int guess1 = input.nextInt();
@@ -57,7 +57,7 @@ public class Main {
                 }
             }
         }
-        System.out.println("good job you guessed the number");
+        System.out.println("good job you guessed the number which was "+randomNum);
 
 
 
