@@ -35,7 +35,7 @@ public class Main {
                     System.out.println("your getting warmer");
                 }
                 else if (diff2 == diff1){
-                    System.out.println("still warm");
+                    System.out.println("still as warm");
                 }
                 else {
                     System.out.println("your getting colder");
@@ -60,7 +60,7 @@ public class Main {
                         System.out.println("your getting warmer");
                     }
                     else if (diff2 == diff1){
-                        System.out.println("still warm");
+                        System.out.println("still as warm");
                     } else {
                         System.out.println("your getting colder");
                     }
